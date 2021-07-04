@@ -491,7 +491,11 @@ app.images = [
             'img/imgs/newaccount2.png',
             'img/imgs/conditions.png',
             'img/imgs/login.png',
-            'img/imgs/mail.png'
+            'img/imgs/mail.png',
+            'img/imgs/register0.PNG',
+            'img/imgs/success.png',
+            'img/imgs/confirm.png',
+
         ]
     },{
         topic_id: 2,
@@ -659,7 +663,10 @@ app.content = [
                         pages: [
                             {
                                 id:1,
-                                content:'<p style="text-align:right"><span style="font-size:16px"><em><strong>&nbsp; نبذه عن بنك المعرفه</strong></em></span></p> <ul> <li dir="rtl" style="text-align:right"><span style="font-size:14px">نحو مجتمع مصري &quot;يتعلم ويفكر ويبتكر &quot; هى المبادرة التى أطلقها الرئيس عبدالفتاح السيسى خلال عيد العلم عام 2014 . ومن خلالها بدأت المجالس التخصصيه التابعة لرئاسه الجمهورية فى محاولات اطلاق مشروعات قوميه تهتم بتنميه التعلم وطرح حلول لعلاج هذه المشكله .</span></li> <li dir="rtl" style="text-align:right"><span style="font-size:14px">وبغضل ايمان القياده السياسيه بأهميه التعليم لغد أفضل جاءت مبادرات رئاسة الجمهورية باطلاق المشروعات القومية كمشروع تأهيل وتدريب المعلم</span></li> <li dir="rtl" style="text-align:right"><span style="font-size:14px">يعد مشروع &quot;بنك المعرفه المصري&quot; أكبر مصادر المعرفة على الانترنت داخل مصر حيث يعطى الطلاب والمعلمين والباحثين فرصة الحصول على موارد مجانية للتعليم والأبحاث العلميه من جميع أنحاء العالم </span></li> <li dir="rtl" style="text-align:right"><span style="font-size:14px">وهو عباره عن بوابو رقميه على الويب ومنفذ مرتبظ بمعظم المصادر العالمية للتعليم والثقافه والمعرفة من خلال اتفاقيات شراكه دوليه وهو قناة رسميه تفتح لك ميع المصادر هذه أدنى اشتراكات مالية ، فقط لمجرد تسجيلك بالبنك ، لذا أطلق عليه مشروع قومى لخدمة الشعب المصرى فلا يتاح الدخول على الموقع أو التسجيل به والأستفاده بخدماته الا من داخل الأراضى المصرية. (مخصص فقط لحاملى الجنسية المصرية ويشترط أن يكونوا على أرض البلد )</span></li> </ul>',
+                                content:'<p style="text-align:right"><span style="font-size:16px"><em><strong>&nbsp; نبذه عن بنك المعرفه</strong></em></span></p> <ul> <li dir="rtl" style="text-align:right"><span style="font-size:14px">نحو مجتمع مصري &quot;يتعلم ويفكر ويبتكر &quot; هى المبادرة التى أطلقها الرئيس عبدالفتاح السيسى خلال عيد العلم عام 2014 . ومن خلالها بدأت المجالس التخصصيه التابعة لرئاسه الجمهورية فى محاولات اطلاق مشروعات قوميه تهتم بتنميه التعلم وطرح حلول لعلاج هذه المشكله .</span></li> <li dir="rtl" style="text-align:right"><span style="font-size:14px">وبفضل ايمان القياده السياسيه بأهميه التعليم لغد أفضل جاءت مبادرات رئاسة الجمهورية باطلاق المشروعات القومية كمشروع تأهيل وتدريب المعلم</span></li> <li dir="rtl" style="text-align:right"><span style="font-size:14px">يعد مشروع &quot;بنك المعرفه المصري&quot; أكبر مصادر المعرفة على الانترنت داخل مصر حيث يعطى الطلاب والمعلمين والباحثين فرصة الحصول على موارد مجانية للتعليم والأبحاث العلميه من جميع أنحاء العالم </span></li> <li dir="rtl" style="text-align:right"><span style="font-size:14px">وهو عباره عن بوابه رقميه على الويب ومنفذ مرتبط بمعظم المصادر العالمية للتعليم والثقافه والمعرفة من خلال اتفاقيات شراكه دوليه وهو قناة رسميه تفتح لك جميع المصادر هذه بدون أدنى اشتراكات مالية ، فقط لمجرد تسجيلك بالبنك ، لذا أطلق عليه مشروع قومى لخدمة الشعب المصرى فلا يتاح الدخول على الموقع أو التسجيل به والأستفاده بخدماته الا من داخل الأراضى المصرية. (مخصص فقط لحاملى الجنسية المصرية ويشترط أن يكونوا على أراضى البلد )</span></li> </ul>',
+                            },{
+                                id:2,
+                                content:'',
                             }
                         ]
                     },   {
@@ -671,13 +678,13 @@ app.content = [
                         pages: [
                             {
                                 id:1,
-                                content:'<p style="text-align:right"><span style="font-size:16px"><em><strong>كيف أسجل ببنك المعرفة واستفيد منه ؟</strong></em></span></p> <p dir="rtl"><span style="font-size:16px">1- اختر بوابة من البوابات الأربع التى تريدها كمستخدم للبنك (قارئ عام -معلم أو مدرس أو طالب جامعى - باحث أكاديمى جامعى - طفل)</span></p><img class="content_image" src="'+ app.images[0].img[0] +'"><p dir="rtl"><span style="font-size:16px">2-قم بكتابه&nbsp; بياناتك المطلوبه (بريدك الألكترونى - رقمك القومى -ادارتك التعليميه فى حال المعلم + المنطقه أى المديرية التعليميه فى حال المعلم - المدرسه)</span></p><img class="content_image" src="'+ app.images[0].img[1] +'"> ',
+                                content:'<p style="text-align:right"><span style="font-size:16px"><em><strong>كيف أسجل ببنك المعرفة واستفيد منه ؟</strong></em></span></p><img class="content_image" src="'+ app.images[0].img[7] +'"> <p dir="rtl"><span style="font-size:16px">1- اختر بوابة من البوابات الأربع التى تريدها كمستخدم للبنك (قارئ عام -معلم أو مدرس أو طالب جامعى - باحث أكاديمى جامعى - طفل)</span></p><img class="content_image" src="'+ app.images[0].img[0] +'"><p dir="rtl"></p>فى حاله نوع المستخدم(معلم) يتم الضغط على بوابه الطلاب والمعلمون <img class="content_image" src="'+ app.images[0].img[1] +'"> ',
                             },{
                                 id:2,
-                                content:'<p dir="rtl"><span style="font-size:16px">3- الباحثيين لاكاديميين &quot;أى العاملين بالجامعات والكليات من الآساتذه وأعضاء هيئه التدريس ، لا يسمح لهم بالتسجيل الا من داخل الجامعه ذاتها وخط الانترنت بها ، ثم بعد ذلك يمكنهم الدخول من أى مكان بالجمهورية &quot;&nbsp;</span></p><img class="content_image" src="'+ app.images[0].img[2] +'"><p></p><img class="content_image" src="'+ app.images[0].img[3] +'"><p></p><img class="content_image" src="'+ app.images[0].img[4] +'">',
+                                content:'<p dir="rtl"><span style="font-size:16px">2-قم بكتابه&nbsp; بياناتك المطلوبه (بريدك الألكترونى - رقمك القومى -ادارتك التعليميه فى حال المعلم + المنطقه أى المديرية التعليميه فى حال المعلم - المدرسه)</span></p><img class="content_image" src="'+ app.images[0].img[2] +'"><p></p><img class="content_image" src="'+ app.images[0].img[3] +'"><p></p><img class="content_image" src="'+ app.images[0].img[4] +'">',
                             },{
                                 id:3,
-                                content:'<p></p><img class="content_image" src="'+ app.images[0].img[4] +'">',
+                                content:'<p></p><img class="content_image" src="'+ app.images[0].img[8] +'"></p><p><img class="content_image" src="'+ app.images[0].img[9] +'"><p dir="rtl"><span style="font-size:16px">3- الباحثيين الأكاديميين &quot;أى العاملين بالجامعات والكليات من الآساتذه وأعضاء هيئه التدريس ، لا يسمح لهم بالتسجيل الا من داخل الجامعه ذاتها وخط الانترنت بها ، ثم بعد ذلك يمكنهم الدخول من أى مكان بالجمهورية &quot;&nbsp;</span></p>',
                             }
 
                         ]
@@ -690,7 +697,7 @@ app.content = [
                         pages: [
                             {
                                 id:1,
-                                content:'<img class="content_image" src="'+ app.images[0].img[5] +'"><p></p><img class="content_image" src="'+ app.images[0].img[6] +'">',
+                                content:'<ul dir="rtl"> <li><span style="font-size:16px">أولا يتم الدخول على بنك المعرفه بكلمه المرور التى يتم ارسالها للمستخدم عبر البريد الالكترونى.</span></pre> </li></br> <li><span style="font-size:16px">ثانيا أدخل كلمه مرور جديده كما فى الجزء رقم (2)</span></li> </ul><img class="content_image" src="'+ app.images[0].img[5] +'"><p></p><ul dir="rtl"> <li> <span style="font-size:16px">بعد ذلك يتم الدخول على بنك المعرفه من خلال عنوان البريد الالكترونى الخاص بك وكلمه المرور بعد تغيرها كما فى النافذه التاليه </span></pre> </li> </ul><img class="content_image" src="'+ app.images[0].img[6] +'">',
                             }
                         ]
                     }
